@@ -20,8 +20,8 @@ ARM Cortex-M4
 
 # *Projects*
 
-# *1_LedBlinkTimerInt_NoHAL*
-
+1_LedBlinkTimerInt_NoHAL
+-------------------------
 \- Timer-based LED blinking
 
 \- No HAL
