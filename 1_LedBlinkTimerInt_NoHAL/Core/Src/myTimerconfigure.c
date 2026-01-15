@@ -13,7 +13,7 @@ void myTimerinit(void)
 
     // T = ((PSC + 1) / F_clk)  *  (ARR + 1)
 
-    TIM4_PSC = (7199U << 0); // APB2 prescaler =  "/2"= 144/72 = 72Mhz" / (7199 + 1) = 10000 , 10000 cycle per second
+    TIM4_PSC = (7199U << 0); // APB1 prescaler =  "/2"= 144/72 = 72Mhz" / (7199 + 1) = 10000 , 10000 cycle per second
 
     TIM4_ARR = (4999U << 0); // 10000 / (ARR + 1) = 0.5 second for toggle led
 
