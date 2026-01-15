@@ -18,8 +18,6 @@ ARM Cortex-M4
 
 \- Git \& GitHub
 
-# *Projects*
-
 1_LedBlinkTimerInt_NoHAL
 -------------------------
 \- Timer-based LED blinking
@@ -28,18 +26,16 @@ ARM Cortex-M4
 
 \- Interrupt-driven
 
-
-# *2_LedButtonInt_NoHAL*
-
+2_LedButtonInt_NoHAL
+-------------------------
 \- External interrupt (EXTI)
 
 \- Button-controlled LED
 
 \- Bare-metal configuration
 
-
-# 3_LedPwmDrive_NoHAL
-
+3_LedPwmDrive_NoHAL
+-------------------------
 \- Timer: TIM4
 
 \- Channel: CH1
