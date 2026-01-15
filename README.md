@@ -1,20 +1,26 @@
-# STM32F4 Bare-Metal Examples
+# *STM32F4 Bare-Metal Examples*
 
 This repository contains bare-metal STM32F4 examples developed without HAL or CubeMX.
 
 All peripherals are configured using direct register-level programming.
 
-
-# Target MCU
+# *Target MCU*
 
 STM32F4 series (e.g. STM32F407)
 
 ARM Cortex-M4
 
+# *Tools*
+
+\- STM32CubeIDE
+
+\- ARM-GCC
+
+\- Git \& GitHub
 
 # *Projects*
 
-# 1_LedBlinkTimerInt_NoHAL
+# *1_LedBlinkTimerInt_NoHAL*
 
 \- Timer-based LED blinking
 
@@ -23,7 +29,7 @@ ARM Cortex-M4
 \- Interrupt-driven
 
 
-# 2_LedButtonInt_NoHAL
+# *2_LedButtonInt_NoHAL*
 
 \- External interrupt (EXTI)
 
@@ -49,17 +55,6 @@ ARM Cortex-M4
 \- Fully bare-metal (no HAL)
 
 
-# Tools
-
-\- STM32CubeIDE
-
-\- ARM-GCC
-
-\- Git \& GitHub
-
-
-
----
 
 
 
