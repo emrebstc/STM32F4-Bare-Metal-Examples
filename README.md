@@ -1,28 +1,20 @@
-\# STM32F4 Bare-Metal Examples
+# STM32F4 Bare-Metal Examples
+
+This repository contains bare-metal STM32F4 examples developed without HAL or CubeMX.
+
+All peripherals are configured using direct register-level programming.
 
 
+# Target MCU
 
-This repository contains \*\*bare-metal STM32F4 examples\*\* developed \*\*without HAL or CubeMX\*\*.
+STM32F4 series (e.g. STM32F407)
 
-All peripherals are configured using \*\*direct register-level programming\*\*.
-
-
-
-\##  # Target MCU
-
-\- STM32F4 series (e.g. STM32F407)
-
-\- ARM Cortex-M4
+ARM Cortex-M4
 
 
+# *Projects*
 
-\##  # Project Structure
-
-
-
-\###  Led Blink (Timer Interrupt)
-
-\*\*Path:\*\* `1\_LedBlinkTimerInt\_NoHAL`
+# 1_LedBlinkTimerInt_NoHAL
 
 \- Timer-based LED blinking
 
@@ -31,10 +23,7 @@ All peripherals are configured using \*\*direct register-level programming\*\*.
 \- Interrupt-driven
 
 
-
-\###  Button Interrupt
-
-\*\*Path:\*\* `2\_LedButtonInt\_NoHAL`
+# 2_LedButtonInt_NoHAL
 
 \- External interrupt (EXTI)
 
@@ -43,10 +32,7 @@ All peripherals are configured using \*\*direct register-level programming\*\*.
 \- Bare-metal configuration
 
 
-
-\###  PWM LED Driver (TIM4)
-
-\*\*Path:\*\* `3\_LedPwmDrive\_NoHAL`
+# 3_LedPwmDrive_NoHAL
 
 \- Timer: TIM4
 
@@ -63,8 +49,7 @@ All peripherals are configured using \*\*direct register-level programming\*\*.
 \- Fully bare-metal (no HAL)
 
 
-
-\##  # Tools
+# Tools
 
 \- STM32CubeIDE
 
