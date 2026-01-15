@@ -8,7 +8,7 @@ All peripherals are configured using \*\*direct register-level programming\*\*.
 
 
 
-\##  Target MCU
+\##  # Target MCU
 
 \- STM32F4 series (e.g. STM32F407)
 
@@ -16,7 +16,7 @@ All peripherals are configured using \*\*direct register-level programming\*\*.
 
 
 
-\##  Project Structure
+\##  # Project Structure
 
 
 
@@ -64,7 +64,7 @@ All peripherals are configured using \*\*direct register-level programming\*\*.
 
 
 
-\##  Tools
+\##  # Tools
 
 \- STM32CubeIDE
 
