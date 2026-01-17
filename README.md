@@ -2,11 +2,6 @@
 
 This repository contains **bare-metal STM32F4 examples** developed **without HAL and without CubeMX**.
 
-All peripherals are configured using **direct register-level programming**.
-
----
-
-## Target MCU
 
 - STM32F4 Series (tested on STM32F407VGT6)
 - ARM Cortex-M4
