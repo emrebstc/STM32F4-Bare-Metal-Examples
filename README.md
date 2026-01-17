@@ -2,6 +2,7 @@
 
 This repository contains **bare-metal STM32F4 examples** developed **without HAL and without CubeMX**.
 
+Some code and the comment lines next to it may not match; a few comment lines are often overlooked when copy-pasting, but the basic code is the same.
 
 - STM32F4 Series (tested on STM32F407VGT6)
 - ARM Cortex-M4
